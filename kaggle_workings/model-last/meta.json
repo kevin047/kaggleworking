@@ -1,0 +1,107 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.4,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"bff8725f4",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "College Name",
+      "Companies worked at",
+      "Degree",
+      "Designation",
+      "Email Address",
+      "Graduation Year",
+      "Location",
+      "Name",
+      "Skills",
+      "UNKNOWN",
+      "Years of Experience"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.4164827079,
+    "ents_p":0.5463320463,
+    "ents_r":0.3365041617,
+    "ents_per_type":{
+      "Name":{
+        "p":0.8936170213,
+        "r":0.6774193548,
+        "f":0.7706422018
+      },
+      "Companies worked at":{
+        "p":0.4382022472,
+        "r":0.2191011236,
+        "f":0.2921348315
+      },
+      "Email Address":{
+        "p":0.8205128205,
+        "r":0.6153846154,
+        "f":0.7032967033
+      },
+      "Designation":{
+        "p":0.5,
+        "r":0.3189655172,
+        "f":0.3894736842
+      },
+      "College Name":{
+        "p":0.4897959184,
+        "r":0.2926829268,
+        "f":0.3664122137
+      },
+      "Graduation Year":{
+        "p":0.4827586207,
+        "r":0.1818181818,
+        "f":0.2641509434
+      },
+      "Degree":{
+        "p":0.7358490566,
+        "r":0.4756097561,
+        "f":0.5777777778
+      },
+      "Skills":{
+        "p":0.1794871795,
+        "r":0.095890411,
+        "f":0.125
+      },
+      "Location":{
+        "p":0.5157894737,
+        "r":0.4579439252,
+        "f":0.4851485149
+      },
+      "Years of Experience":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "tok2vec_loss":1709.795313776,
+    "ner_loss":1374.1697949013
+  }
+}
